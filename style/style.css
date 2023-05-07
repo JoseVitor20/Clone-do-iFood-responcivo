@@ -1,0 +1,1212 @@
+*{margin:0; padding: 0; box-sizing:border-box; font-family: Fonte1;}
+
+html, body{height: 100%;}
+
+
+@font-face{font-family: "Fonte1";
+src:url('../FONTES/Fira_Sans/FiraSans-Light.ttf')}
+
+@font-face{font-family: "Fonte1Bold";
+src:url('../FONTES/Fira_Sans/FiraSans-Bold.ttf')}
+
+@font-face{font-family: "Fonte2";
+src:url('../FONTES/Convergence-Regular/Convergence-Regular.ttf')}
+
+@font-face{font-family: "Fonte3";
+src:url('../FONTES/Convergence-Regular/JosefinSans-Medium.ttf');}
+
+
+.clear{clear: both;}
+
+
+/* Aqui COMEÇA a parte de Login do iFood⬇️ */
+
+    .Primeiro-menu{float: initial;}
+
+    .Login{display: flex;
+        width: 100%;
+        float: initial;
+        position:fixed;
+        top:0%;
+        flex-wrap: wrap;
+        padding: 25px 0;
+        justify-content: space-between;
+        background-color:white;
+        box-shadow: 0px 1px 10px 1px rgb(203, 202, 202);
+    }
+
+    .img-logo{margin-left: 10%;
+        margin-right: 2%;
+        margin-top: 10px;
+    }
+
+    .img-logo img{width:100px; 
+        height: 60px;
+        cursor:pointer;
+    }
+
+    .logo-ifood{display: flex;
+        width: 800px;
+        max-width: 98%;
+    }
+
+    .sobre{margin:30px 0px 30px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width:800px;
+    }
+
+    .sobre span{padding:0 20px;
+        font-weight:bold;
+        color:rgb(82, 81, 81);
+        cursor:pointer;
+    }
+
+
+    .criar-conta{padding-top: 20px;
+        text-align: right;
+        width: 300px;
+        margin-right: 9%;
+    }
+
+    .criar-conta span{margin-right: 25px;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing:1px;
+        cursor:pointer;
+    }
+
+    .criar-conta button{width: 110px;
+        height:45px;
+        border-radius: 5px;
+        background-color:#ea1d2c;
+        color:white;
+        font-weight:normal;
+        border:none;
+        font-family: Fonte1Bold;
+        cursor:pointer;
+        font-size:15px;
+    }
+
+/* Aqui TERMINA a parte de login do iFood⬆️ */
+
+/* *************************************************************************** */
+
+/* Aqui COMEÇA a parte de criação do MENU do ifood⬇️ */
+
+    /* PESQUISA GERAL DO SITE⬇️ */
+    
+
+        .pesquisa-relacionada{text-align: center;
+            float: initial;
+        }
+
+        .menu{margin-top: 15%;}
+
+        .menu h1{font-size: 35px;
+            text-align: center;
+            font-family: Fonte2;
+            float: initial;
+        }
+
+        .menu h4{margin-top:15px;
+            margin-bottom:40px;
+            text-align: center;
+            color:gray;
+        }
+
+        .menu input[type=text] {width: 45%;
+            height: 45px;
+            border-radius: 5px;
+            border:none;
+            font-size:15px;
+            padding-left:25px;
+            outline: none;
+            border:2px solid rgba(128, 128, 128, 0.178);
+        }
+
+        .menu button{width:120px;
+            height: 47px;
+            border-radius:3px;
+            border:none;
+            background-color: rgb(248, 7, 7);
+            color:white;
+            font-size:15px;
+            font-weight: 900;
+            letter-spacing:1px;
+            margin-left: 10px; 
+        }
+
+    /* PESQUISA GERAL DO SITE⬇⬆️ */
+
+    /* *************************************************************************** */
+
+    /* .RESTAURANTE MERCADO⬇️ */
+
+        .restaurante-mercado{display: flex;
+            margin-top:20px;
+            padding:50px;
+            justify-content: center;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+            width: 100%;
+            padding:20px 20%;
+        }
+
+        .restaurante-mercado h2{margin-left: 25px;
+            margin-top:30px;
+            font-size: 30px;
+            color:white;
+            font-family:Fonte1Bold;
+            letter-spacing:2px;
+        }  
+            
+        .restaurante-mercado h4{margin-top: -60px;
+            margin-left:20px;
+            color:white;
+            width: 120px;
+        }
+
+    /* RESTAURANTE MERCADO⬆️ */
+
+    /* *************************************************************************** */
+
+    /* OPTION RESTAURANTE⬇️ */
+
+        .option-restaurante{background-color: #ea1d2c;
+            width:375px;
+            height:220px;
+            border-radius: 20px;
+            min-width: 360px;
+            margin-bottom:30px;
+            transition: 0.5s;
+        }
+                
+        .option-restaurante img{margin-left:125px;
+            margin-top:-6px;
+        }
+
+        .option-restaurante h4{background-color:#88272e75;
+            padding:10px;
+            border-radius:10px;
+            letter-spacing:0.5px;
+        }
+
+        .option-restaurante:hover{
+            width: 380px;
+            height: 225px;
+        }
+
+
+    /* OPTION RESTAURANTE⬆️ */
+
+    /* *************************************************************************** */
+
+    /* OPTION MERCADO⬇️ */
+
+
+        .option-mercado{background-color:#b6d048;
+            width:375px;
+            height:220px;
+            border-radius: 20px;
+            min-width: 360px;
+            transition: 0.5s;
+        }
+
+        .option-mercado img{margin-left: 140px;
+            margin-top:-23px;
+        }
+
+        .option-mercado h4{background-color: #626f2461;
+            padding:10px;
+            border-radius:10px;
+            letter-spacing:0.5px;
+        }
+
+        .option-mercado:hover{width:380px;height:225px;}
+
+
+    /* OPTION MERCADO⬆️ */
+
+    /* *************************************************************************** */
+
+    /* BEBIDAS, FARMACIA E PET SHOOP⬇️ */
+
+        .bebidas-farmacia-pet-shop{display: inline-block;
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .option2 {display: inline-block;
+            width: 200px;
+            margin:0 44px;
+            margin-bottom: 10px;
+            text-align: center;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+        .cor{width:100%;  
+            display:inline-block;
+            text-align: center; 
+            height: 50px;
+            min-width: 200px;
+            margin-top:50px;
+            margin-bottom:-95px;
+            border-radius:10px;
+            transition: 0.5s;
+        }
+
+        .option2 h4{color:black;}
+
+    /* BEBIDAS, FARMACIA E PET SHOOP⬆️ */
+
+
+/* Aqui TERMINA a parte de criação do MENU do iFood⬆️ */
+
+/* ***************************************************************************         */
+
+/* Aqui COMEÇA a parte de criação do CORPO⬇️ */
+
+
+    .Segundo-menu{
+        margin:0 6.5%;
+        border-top:2px solid rgba(128, 128, 128, 0.117);
+    }
+
+    .segundo-menu h1{text-align: left;
+        width: 100%;
+        font-size:25px;
+        padding:40px 0;
+        padding-left: 5px;
+    }
+
+
+    /* RESTAURANTES PARCEIROS⬇️ */
+
+        .parceiras-restaurantes{display:flex;
+            justify-content:space-around;
+            flex-wrap:wrap;
+        }
+
+        .marcas{display: flex;
+            margin-top:20px;
+        }
+
+        .marcas img{width:70;
+            height:70px; 
+            border-radius:100%;
+            margin-left:10px;
+        }
+
+        .nome{margin-top:20px;
+            margin-left:10px;}
+
+        .verificado img{width:15px; 
+            height:15px;
+            margin-left:225px; 
+            margin-top:5px;
+        }
+
+        .Mcdonald{border:2px solid rgba(128, 128, 128, 0.334);
+            border-radius: 8px;
+            width:250px;
+            height:150px;
+            display:inline;
+            margin-bottom:20px;
+            transition: 0.5s;
+        }
+
+        .Mcdonald:hover{border:2px solid gray;}
+
+        .Coco-Bambu{border:2px solid rgba(128, 128, 128, 0.334);
+            border-radius: 8px;
+            width:250px;
+            height:150px;
+            display:inline;
+            margin-bottom:20px;
+            transform: 0.5s;
+        }
+
+        .Coco-Bambu:hover{border:2px solid gray;}
+
+        .China-in-Box{border:2px solid rgba(128, 128, 128, 0.334);
+            border-radius: 8px;
+            width:250px;
+            height:150px;
+            display:inline;
+            margin-bottom:20px;
+            transform:0.5s;
+        }
+
+        .China-in-Box:hover{border:2px solid gray;}
+
+        .Habibs{border:2px solid rgba(128, 128, 128, 0.334);
+            border-radius: 8px;
+            width:250px;
+            height:150px;
+            display:inline;
+            margin-bottom:20px;
+            transform: 0.5s;
+        }
+
+        .Habibs:hover{border:2px solid gray;}
+
+        .Outback-Steakhouse{border:2px solid rgba(128, 128, 128, 0.334);
+            border-radius: 8px;
+            width:250px;
+            height:150px;
+            display:inline;
+            margin-bottom:20px;
+            transition: 0.5s;
+        }
+
+        .Outback-Steakhouse:hover{border:2px solid gray;}
+
+    /* RESTURANTES PARECEIROS⬆️ */
+
+    /* *************************************************************************** */
+
+    /* CUPONS DE ALMOÇO, PRATOS E RESTAURANTE⬇️ */
+        .cupons{display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            margin: 50px 20px;
+            flex-wrap: wrap;    
+        }
+
+        .almoço img{width:100%;
+            min-width: 300px;
+            margin-bottom: 20px;
+            height: 200px;
+
+        }
+
+        .pratos img{width:100%;
+            min-width: 300px;
+            margin-bottom: 20px;
+            height: 200px;
+
+        }
+
+        .restaurante img{width:100%;
+            min-width: 300px;
+            margin-bottom: 20px;
+            height: 200px;
+
+        }
+
+    /* CUPONS DE ALMOÇO, PRATOS E RESTAURANTE⬆️ */
+
+/* *************************************************************************** */
+
+    /* PARCEIRAS DE MERCADO⬇️ */
+
+        .parceiras-mercados{
+            border-top:2px solid rgba(128, 128, 128, 0.304);
+            margin-bottom:70px;
+        }
+
+        .parceiras-mercados h2{margin:30px 0;}
+
+        .melhores-mercados{display: flex;
+            flex-wrap:wrap;}
+
+        .Dia-Supermecado{border:2px solid rgba(128, 128, 128, 0.371);
+            display: flex;
+            border-radius: 8px;
+            width: 250px;
+            height:150px;
+            margin:20px 0;
+            margin-right: 20px;
+            transition: 0.5s;
+        }
+
+        .Dia-Supermecado img{width:70px;
+            height:70px;
+            border-radius:100%;
+            margin-top:40px;
+            margin-left:10px;
+        }
+
+        .Dia-Supermecado h5{
+            margin-top:70px;
+            margin-left:10px;
+            font-size:15px;
+
+        }    
+
+        .Dia-Supermecado:hover{border:2px solid rgb(128, 128, 128)}
+
+        .Big{border:2px solid rgba(128, 128, 128, 0.371);
+            display: flex;
+            border-radius: 8px;
+            width: 250px;
+            height:150px;
+            margin:20px 0;
+            margin-right: 20px;
+            transition: 0.5s;
+        }
+
+        .Big:hover{border:2px solid rgb(128, 128, 128)}
+
+        .Big img{width:70px;
+            height:70px;
+            border-radius:100%;
+            margin-top:40px;
+            margin-left:10px;
+        }
+
+        .Big h5{
+            margin-top:70px;
+            margin-left:10px;
+            font-size:15px;
+        }   
+
+        .Eataly{border:2px solid rgba(128, 128, 128, 0.371);
+            display: flex;
+            border-radius: 8px;
+            width: 250px;
+            height:150px;
+            margin:20px 0;
+            transition: 0.5s;
+        }
+
+        .Eataly img{width:70px;
+            height:70px;
+            border-radius:100%;
+            margin-top:40px;
+            margin-left:10px;
+        }
+
+        .Eataly h5{
+            margin-top:70px;
+            margin-left:10px;
+            font-size:15px;
+        }
+
+        .Eataly:hover{border:2px solid rgb(128, 128, 128)}
+
+
+    /* PARCEIRAS DE MERCADO⬆️ */
+
+    /* *************************************************************************** */
+
+    /* OPÇÕES DO iFOOD⬇️ */
+
+
+        /* ESCOLHAS IFOOD⬇️ */
+
+            .escolhas-ifood{display: flex;
+                justify-content: center;
+                width:100%;
+                flex-wrap:wrap;
+                float:initial;
+                text-align: center;
+                padding-bottom: 75px;
+            }
+
+            .flex{display: flex;
+                float: initial;
+                padding-left: 50px;
+                width: 100%;
+                max-width: 470px;
+                text-align: left;
+            }
+
+
+            .imagem-escolhas img{
+                width:100%;
+                min-width: 200px;
+                margin-top: 200px;}
+
+            .saiba-mais{width:300px;
+                float: initial;
+            }
+
+            .frase-ifood{
+                margin-left:30px;
+            }
+
+            .frase-ifood h2{
+                line-height:35px;
+                word-spacing: 3px;
+                font-size: 35px;
+                font-family:Fonte3;
+                margin: 25px 0;}
+
+            .frase-ifood p{
+                margin-bottom: 25px;
+            }
+
+            .texto-ifood p{color:gray;
+                font-weight:700;
+                word-spacing: 2px;
+                margin-bottom: 25px;
+            }
+
+            .button-ifood button{width: 140px;
+                height: 50px;
+                color:white;
+                background-color:#ea1d2c;
+                border-radius: 5px;
+                border:none;
+                font-weight:900;
+                font-size:17px;
+                margin-bottom: 50px;
+            }
+
+
+        /* ESCOLHAS IFOOD⬇️ */
+
+
+        /* Voce-tem-fome-do-que⬇️ */
+
+            .imagem-de-pessoas-no-meio{display: none;}
+        
+            .Voce-tem-fome-do-que{display: flex;
+                width: 90%;
+                margin: 0 auto;
+                flex-wrap: wrap;
+                justify-content: center;
+                border-top:2px solid rgb(234, 231, 231);
+                padding-top: 70px;
+            }
+
+            .imagem-de-pessoas img{
+                width: 100%;
+                min-width: 200px;
+            }
+
+            .imagem-de-entregadores img{display: none;}
+
+
+            .saiba-mais h2{width: 50%;
+                font-weight: bold;
+                font-size:35px;
+                font-family: Fonte3;
+                margin-bottom: 25px;
+            }
+
+            .texto-do-ifood p{width: 95%;
+                font-weight: 600;
+                color:gray;
+                margin-bottom: 25px;
+            }
+
+
+            .button-do-ifood button{width:150px;
+                border-radius: 5px;
+                border: none;
+                height:50px;
+                background-color:#ea1d2c;
+                color:white;
+                font-size:15px;
+                font-weight:bold;
+            }
+
+        /* Voce-tem-fome-do-que⬆️ */
+
+        /* CUPONS E BENEFICIOS⬇️ */
+
+            .cupon-beneficios{width: 100%;       
+            }
+
+            .primeira-imagem img{width: 80%;
+                height:100px;
+                margin:50px 0;
+            }
+
+            .segunda-imagem img{display: none;}
+
+            .cinza{background-color: rgba(128, 128, 128, 0.161);
+                width: 100%;
+                height:60px;
+                margin:30px 0;}
+        
+        /* CUPONS E BENEFICIOS⬆️         */
+
+    /* OPÇÕES DO iFOOD⬆️ */
+
+    /* ***************************************************************************     */
+
+    /* CIDADES, INFORMAÇÕES⬇️ */
+
+
+        .Quarto-menu{margin: 0 6.5%;
+            border-bottom:1px solid rgba(128, 128, 128, 0.351);
+            margin-bottom:40px ;
+        }
+
+        .Explore-cidades{display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin:30px 0;
+            font-size: 17px;
+        }
+
+        .Explore-cidades h3:last-child{color:red;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .todas-cidades{display: grid;
+            padding: 20px 0;
+            grid-template-columns: repeat(auto-fit, minmax(300px,4fr));
+        }
+
+        .todas-cidades h4{font-family: Fonte1;
+            padding: 20px 0;
+            color:rgb(66, 65, 65);}
+
+        .todas-cidades h3{margin-top:50px;
+            margin-bottom: 20px;}  
+
+        .todas-cidades img{margin-top: 10px;}
+
+
+    /* CIDADES, INFORMAÇÕES ⬆️ */
+
+    /* *************************************************************************** */
+
+    /* RODAPÉ DA PAGINA⬇️ */
+
+        .quinto-menu{margin:0 6%;
+            float: initial;
+            display:flex;
+            flex-wrap: wrap;
+        }    
+
+        .Rodapé{width: 500px;
+            display: block;
+            margin-right:20px;
+            margin-bottom: 50px;
+            font-weight: normal;
+            color:rgb(104, 104, 104);
+        }
+
+        .Rodapé img{width:100px;
+            height:60px;
+        }
+
+        .termos{display:flex;
+            margin-left: -23px;
+            width:720px;
+            min-width:150px;
+            padding-top: 43px;
+            float: initial;
+        }
+
+        .termos span{display: flex;
+            padding-left:20px;
+            padding-right:15px;
+            padding-top:15px;
+            padding-bottom: 20px;
+            margin-bottom: -25px;
+            color:rgb(104, 104, 104);
+        }
+
+    /* RODAPÉ DA PAGINA⬆️ */
+
+
+/* Aqui TERMINA a parte de criação do CORPO do iFood⬆️  */
+
+/* *************************************************************************** */
+
+/* AQUI COMEÇA A PARTE DAS MEDIAS QUERIES⬇️ */
+
+
+    /* O RESPONCIVO DE 1230 PX COMEÇA AQUI⬆️ */
+
+
+    @media screen and (max-width: 1250px){
+
+        /* Aqui COMEÇA a parte de Login do iFood⬇️ * */
+
+            .Login{display: block;
+                text-align: center;
+                width: 100%;
+                float: initial;
+                top: 0%;
+            }
+        
+            .img-logo{display: block;
+                text-align: center;
+                margin: -5px 0;
+            }
+        
+            .img-logo img{
+                width:90px; 
+                height: 70px;
+                cursor:pointer;
+                margin-left: 25px;
+            }
+        
+            .logo-ifood{display: block;
+                width:100%;
+            }
+        
+            .sobre{margin:30px 0px 30px 10px;
+                display:inline-block;
+                width:100%;
+            }
+        
+            .sobre span{display:inline-block;
+                padding:10px 20px;
+                font-weight:bold;
+            }
+        
+        
+            .criar-conta{display: block;
+                width: 100%;
+                padding-top: 20px;
+                text-align: center;
+                margin-right: 9%;
+            }
+        
+            .criar-conta span{display: block;
+                text-align: center;
+                margin:0 auto;
+                margin-bottom: 5px;
+                margin-top: -20px;
+            }
+
+        /* Aqui COMEÇA a parte de Login do iFood⬆️ */
+
+        /* *************************************************************************** */
+
+        /* PESQUISA GERAL DO SITE⬇️ */
+
+            .pesquisa-relacionada{text-align: center;
+                float: initial;
+            }
+
+            .menu{margin-top:330px;}
+
+            .menu h1{font-size: 35px;
+                text-align: center;
+                font-family: Fonte2;
+                float: initial;
+            }
+
+            .menu h4{margin-top:15px;
+                margin-bottom:40px;
+                text-align: center;
+
+            }
+
+            .menu input[type=text] {width: 45%;
+                height: 45px;
+                border-radius: 5px;
+                font-size:15px;
+                padding-left:25px;
+            }
+
+            .menu button{width:120px;
+                height: 47px;
+                border-radius:3px;
+                margin-left: 10px; 
+            }
+
+        /* PESQUISA GERAL DO SITE⬆️ */
+
+    /* *************************************************************************** */
+
+        /* .RESTAURANTE MERCADO⬇️ */
+
+            .restaurante-mercado{display: flex;
+                margin-top:20px;
+                padding:50px;
+                justify-content: center;
+                flex-wrap: wrap;
+                justify-content:space-evenly;
+                width: 100%;
+                padding:20px 20%;
+            }
+
+            .restaurante-mercado h2{margin-left: 25px;
+                margin-top:30px;
+                font-size: 30px;
+            }  
+                
+            .restaurante-mercado h4{margin-top: -60px;
+                margin-left:20px;
+                width: 120px;
+            }
+
+        /* RESTAURANTE MERCADO⬆️ */
+
+    /* ************************************************************/
+
+        /* ESCOLHAS IFOOD⬇️ */
+
+            .escolhas-ifood{display: flex;
+                justify-content: center;
+                width:100%;
+                flex-wrap:wrap;
+                float:initial;
+                text-align: center;
+                padding-bottom: 75px;
+            }
+
+            .flex{display: flex;
+                float: initial;
+                padding-left: 50px;
+                width: 100%;
+                max-width: 100%;
+                margin: 70px 0;
+                text-align: left;
+            }
+
+
+            .imagem-escolhas img{
+                width: 70%;
+                min-width: 150px;
+                margin-top: 100px;
+            }
+
+            .saiba-mais{width:300px;
+                float: initial;
+            }
+
+            .frase-ifood{
+                margin-left:30px;
+            }
+
+            .frase-ifood h2{
+                font-weight: normal;
+                word-spacing: 3px;
+                font-size: 25px;
+                font-family:Fonte3;
+                margin: 15px 0;
+            }
+
+            .frase-ifood p{
+                margin-bottom: 25px;
+            }
+
+            .texto-ifood p{color:gray;
+                font-weight:700;
+                word-spacing: 2px;
+                margin-bottom: 25px;
+                font-size:15px;
+            }
+
+            .button-ifood button{width: 90px;
+                height: 30px;
+                color:white;
+                background-color:#ea1d2c;
+                border-radius: 5px;
+                border:none;
+                font-weight:900;
+                font-size:12px;
+                margin-bottom: 50px;
+            }
+        
+        /* ESCOLHAS IFOOD⬆️     */
+
+
+        /* Voce-tem-fome-do-que⬇️ */
+
+    
+            .Voce-tem-fome-do-que{display: flex;
+                width: 100%;
+                min-width: 400px;
+                margin: 0 auto;
+                flex-wrap: wrap;
+                float: initial;
+                justify-content: center;
+                border-top:2px solid rgb(234, 231, 231);
+                padding-top: 70px;
+            }
+
+            .imagem-de-entregadores img{
+                display: block;
+                text-align: center;
+                width: 100%;
+                margin: 30px 0;    
+            }
+
+            .imagem-de-pessoas img{
+                display: none;
+            }
+
+            .saiba-mais h2{
+                display: block;
+                text-align: center;
+                width: 100%;
+                font-weight: bold;
+                font-size:25px;
+                font-family: Fonte3;
+                margin-bottom: 25px;
+            }
+
+            .texto-do-ifood p{width: 100%;
+                font-weight: 600;
+                color:gray;
+                margin-bottom: 15px;
+            }
+
+
+            .button-do-ifood button{width:150px;
+                display: block;
+                margin: 0 auto;
+                border-radius: 5px;
+                border: none;
+                height:50px;
+                background-color:#ea1d2c;
+                color:white;
+                font-size:15px;
+                font-weight:bold;
+            }
+
+        /* Voce-tem-fome-do-que⬆️ */
+
+    /* ******************************************************************************** */
+        
+        /* CUPONS E BENEFICIOS⬇️ */
+
+            .cupon-beneficios{width: 100%;       }
+
+            .primeira-imagem img{
+                display: none;
+                width: 80%;
+                height:100px;
+                margin:50px 0;
+            }
+
+            .segunda-imagem img{display: block;
+                width: 100%;
+                height:250px;
+                margin:50px 0;
+            }
+
+            .cinza{background-color: rgba(128, 128, 128, 0.161);
+                width: 100%;
+                height:60px;
+                margin:30px 0;}
+    
+        /* CUPONS E BENEFICIOS⬆️*/
+
+
+        /* RODAPÉ DA PAGINA⬇️ */
+
+            .quinto-menu{margin:0 6%;
+                float: initial;
+                display: inline-block;
+                width: 100%;
+            }    
+    
+            .Rodapé{width: 500px;
+                display: block;
+                margin-bottom: 25px;
+                font-weight: normal;
+                color:rgb(104, 104, 104);
+            }
+    
+            .Rodapé img{width:100px;
+                height:60px;
+            }
+    
+            .termos{display: block;
+                max-width: 300px;
+                padding:15px 0;
+                float: initial;
+            }
+    
+            .termos span{padding-left:20px;
+                padding-right:15px;
+                padding-top:15px;
+                padding-bottom: 20px;
+                margin-bottom: -25px;
+                color:rgb(104, 104, 104);
+            }
+    
+        /* RODAPÉ DA PAGINA⬆️ */
+    
+
+    }
+          
+
+    /* O RESPONCIVO DE 1230 TERMINA AQUI⬆️ */
+
+
+
+
+
+    /* O RESPONCIVO DE 580 PX COMEÇA AQUI⬇️ */
+
+
+    @media screen and (max-width:580px){
+
+        /* Aqui COMEÇA a parte de Login do iFood⬇️ */
+
+
+            .Login{float: left;
+                text-align: center;
+                width: 100%;
+                float: initial;
+                position: fixed;
+                top: 0%;
+            }
+        
+            .img-logo{
+                text-align: center;
+                margin: 20px 0;
+            }
+        
+            .img-logo img{
+                width:80px; 
+                height: 50px;
+                cursor:pointer;
+                margin-left:30px;
+                position: relative;
+                top:-10px
+            }
+        
+            .logo-ifood{display: flex;
+                width:100%;
+            }
+        
+            .sobre{margin:30px 0px 30px 10px;
+                display:block;
+                width:100%;
+                position: relative;
+                top:-30px;
+            }
+        
+            .sobre span{display:block;
+                padding:10px 20px;
+                font-weight:bold;
+                font-size:13px;
+            }
+        
+        
+            .criar-conta{display: block;
+                width: 100%;
+                text-align: left;
+                margin-left: 10px;
+                margin-bottom: -80px;
+            }
+        
+            .criar-conta span{display: block;
+                font-size:13px;
+                text-align: left;
+                margin:0 auto;
+                margin-bottom: 5px;
+                margin-top:-140px;
+                margin-left: 20px;
+            }
+
+            .criar-conta button{width: 80px;
+                height:34px;
+                border-radius: 5px;
+                background-color:#ea1d2c;
+                color:white;
+                cursor:pointer;
+                font-size:13px;
+                margin-left: 15px;
+            }
+
+
+        /* Aqui TERMINA a parte de login do iFood⬆️ */  
+        
+        /* *************************************************************************** */
+
+        /* PESQUISA GERAL DO SITE⬇️ */
+    
+
+        .pesquisa-relacionada{text-align: center;
+            width:100%;
+            float: initial;
+        }
+
+        .menu{margin-top: 250px;}
+
+        .menu h1{display: block;
+            font-size: 25px;
+            text-align: center;
+            font-family: Fonte2;
+            float: initial;
+        }
+
+        .menu h4{margin-top:15px;
+            margin-bottom:40px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .menu input[type=text] {width: 45%;
+            height: 32px;
+            border-radius: 5px;
+            border:2px solid black;
+            font-size:15px;
+            padding-left:25px;
+            font-size:10px;
+        }
+
+        .menu button{width:60px;
+            height: 30px;
+            border-radius:3px;
+            font-size:10px;
+            font-weight: 900;
+            margin-left: 10px; 
+        }
+
+        /* PESQUISA GERAL DO SITE⬆️ */
+
+        /* .RESTAURANTE MERCADO⬇️ */
+
+            .restaurante-mercado{display: flex;
+                margin-top:40px;
+                padding:50px;
+                justify-content: center;
+                flex-wrap: wrap;
+                justify-content:space-evenly;
+                width: 100%;
+                padding:20px 20%;
+            }
+    
+            .restaurante-mercado h2{margin-left: 25px;
+                margin-top:30px;
+                font-size: 20px;
+            }  
+                
+            .restaurante-mercado h4{margin-top: -60px;
+                margin-left:20px;
+                width: 120px;
+            }
+            .option-restaurante img{margin-top:6px;
+            }
+
+            .option-mercado img{margin-top:-11px;}
+    
+        /* RESTAURANTE MERCADO⬆️ */
+        
+        /* *************************************************************************** */
+        
+        /* OUTROS CLASSES QUE NÃO PRECISSÃO DE ALTERAR MUITA COISAS⬇️ */
+
+
+        .parceiras-mercados{width:100%;
+            text-align: center;
+            border-top:2px solid rgba(128, 128, 128, 0.304);
+            margin-bottom:70px;
+        }
+
+        /* OUTROS CLASSES QUE NÃO PRECISSÃO DE ALTERAR MUITA COISAS⬆️ */
+
+            /* ************************************************************************************* */
+
+        /* OPÇÕES DO iFOOD⬇️ */
+
+
+
+        /* OPÇÕES DO iFOOD⬆️ */
+
+
+    }
+
+
+/* AQUI TERMINA A PARTE DAS MEDIAS QUERIES⬆️ */
